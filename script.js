@@ -615,7 +615,7 @@ const slidesData = [
                 </div>
                 
                 <div style="margin-top: 40px;">
-                    <a href="https://www.ukitc.uk/" target="_blank" style="display: inline-block; padding: 12px 30px; background: var(--secondary-color); color: #000; text-decoration: none; font-weight: bold; border-radius: 5px; text-transform: uppercase; letter-spacing: 1px; transition: transform 0.3s ease;">Visit Website</a>
+                    <a href="https://www.ukitc.uk/" target="_blank" style="display: inline-block; padding: 12px 30px; background: var(--secondary-color); color: #000; text-decoration: none; font-weight: bold; border-radius: 5px; text-transform: uppercase; letter-spacing: 1px; transition: transform 0.3s ease;">For More</a>
                 </div>
             </div>
         `
