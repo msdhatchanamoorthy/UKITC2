@@ -206,17 +206,17 @@ body {
 
 /* Card Grid */
 .container {
-    max-width: 1400px;
-    margin: -50px auto 100px;
-    padding: 0 20px;
+    max-width: 95vw;
+    margin: 50px auto 100px;
+    padding: 0;
 }
 
 .grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
-    padding: 40px 0;
+    justify-content: space-around;
+    gap: 100px 50px;
+    padding: 60px 0;
 }
 
 .card {
@@ -242,28 +242,44 @@ body {
     to { transform: translateY(-15px); }
 }
 
-.card:nth-child(4n+1) {
+.card:nth-child(8n+1) {
+    transform: translate(-10vw, 20px);
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    transform: translateX(-30px);
-    margin-top: 20px;
 }
 
-.card:nth-child(4n+2) {
+.card:nth-child(8n+2) {
+    transform: translate(5vw, 150px);
     border-radius: 40% 60% 70% 30% / 40% 40% 60% 60%;
-    transform: translateX(40px);
-    margin-top: 80px;
 }
 
-.card:nth-child(4n+3) {
+.card:nth-child(8n+3) {
+    transform: translate(-5vw, -50px);
     border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
-    transform: translateY(-40px);
-    margin-top: 10px;
 }
 
-.card:nth-child(4n+4) {
+.card:nth-child(8n+4) {
+    transform: translate(10vw, 80px);
     border-radius: 50% 50% 20% 80% / 80% 20% 50% 50%;
-    transform: translateX(-20px);
-    margin-top: 60px;
+}
+
+.card:nth-child(8n+5) {
+    transform: translate(-8vw, 120px);
+    border-radius: 30% 70% 70% 30% / 50% 30% 70% 50%;
+}
+
+.card:nth-child(8n+6) {
+    transform: translate(12vw, -20px);
+    border-radius: 60% 40% 60% 40% / 40% 60% 40% 60%;
+}
+
+.card:nth-child(8n+7) {
+    transform: translate(-12vw, 200px);
+    border-radius: 40% 40% 40% 40% / 60% 60% 60% 60%;
+}
+
+.card:nth-child(8n+8) {
+    transform: translate(8vw, 30px);
+    border-radius: 80% 20% 80% 20% / 20% 80% 20% 80%;
 }
 
 .card:hover {

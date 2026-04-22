@@ -84,23 +84,23 @@ const slidesData = [
             <h2 class="underlined-title">WHY PARTNER WITH UKITC?</h2>
             <div class="circle-grid">
                 <div>
-                    <div class="circle-icon" style="background-image: url('https://images.unsplash.com/photo-1521791136066-698485274317?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80');"></div>
+                    <div class="circle-icon" style="background-image: url('images/circle_leadership.jpg');"></div>
                     <p><strong>Strong leadership presence</strong> in both the UK and India</p>
                 </div>
                 <div>
-                    <div class="circle-icon" style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80');"></div>
+                    <div class="circle-icon" style="background-image: url('images/circle_msme.jpg');"></div>
                     <p><strong>Deep MSME and grassroots</strong> entrepreneurship focus</p>
                 </div>
                 <div>
-                    <div class="circle-icon" style="background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80');"></div>
+                    <div class="circle-icon" style="background-image: url('images/circle_team.jpg');"></div>
                     <p><strong>Practical, execution-led</strong> approach to trade facilitation</p>
                 </div>
                 <div>
-                    <div class="circle-icon" style="background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80');"></div>
+                    <div class="circle-icon" style="background-image: url('images/circle_network.jpg');"></div>
                     <p><strong>Extensive business</strong> and institutional networks</p>
                 </div>
                 <div>
-                    <div class="circle-icon" style="background-image: url('https://images.unsplash.com/photo-1533750516457-a7f992034fec?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80');"></div>
+                    <div class="circle-icon" style="background-image: url('images/circle_growth.jpg');"></div>
                     <p><strong>Commitment to ethical,</strong> sustainable, long-term growth</p>
                 </div>
             </div>
@@ -119,7 +119,7 @@ const slidesData = [
                 </div>
                 <div class="panel">
                     <h2 class="underlined-title" style="font-size: 1.8rem; margin-bottom: 30px;">Our Mission</h2>
-                    <div class="rect-img" style="background-image: url('https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                    <div class="rect-img" style="background-image: url('images/mission_london.jpg');"></div>
                     <p>To act as a trusted bridge between the UK and Indian business ecosystems by enabling market access, simplifying trade processes, and empowering businesses—particularly MSMEs—to grow sustainably and globally.</p>
                 </div>
             </div>
