@@ -109,12 +109,12 @@ const slidesData = [
     {
         title: "Our Vision & Mission",
         icon: "👁️",
-        image: "images/slide_4.jpg",
+        image: "images/vision_compass.jpg",
         details: `
             <div class="split-panel">
                 <div class="panel">
                     <h2 class="underlined-title" style="font-size: 1.8rem; margin-bottom: 30px;">Our Vision</h2>
-                    <div class="circle-img" style="background-image: url('https://images.unsplash.com/photo-1521791136066-698485274317?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');"></div>
+                    <div class="circle-img" style="background-image: url('images/vision_compass.jpg');"></div>
                     <p>To become a leading UK–India trade facilitation platform recognised for integrity, execution excellence, and meaningful economic impact across both nations.</p>
                 </div>
                 <div class="panel">
