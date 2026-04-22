@@ -396,18 +396,18 @@ body {
 
 .modal-body .details-container {
     color: #eee;
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     line-height: 1.8;
 }
 
 .modal-body p {
-    font-size: 1.25rem;
-    margin-bottom: 20px;
+    font-size: 1.4rem;
+    margin-bottom: 25px;
 }
 
 .modal-body li {
-    font-size: 1.2rem;
-    margin-bottom: 15px;
+    font-size: 1.35rem;
+    margin-bottom: 18px;
 }
 
 /* Grids for details */
@@ -547,26 +547,35 @@ body {
 
 .leader:hover {
     border-color: var(--secondary-color);
-    background: rgba(212, 175, 55, 0.05);
+    background: rgba(212, 175, 55, 0.1);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
 
 .leader-photo {
-    width: 120px;
-    height: 120px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
-    margin: 0 auto 20px;
+    margin: 0 auto 25px;
     background-size: cover;
     background-position: center top;
-    border: 3px solid var(--secondary-color);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    border: 4px solid var(--secondary-color);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    transition: var(--transition);
+}
+
+.leader:hover .leader-photo {
+    transform: scale(1.1);
+    box-shadow: 0 15px 35px rgba(212, 175, 55, 0.3);
 }
 
 .leader strong, .feature-box h4, .work-item h4 {
     color: var(--secondary-color);
     display: block;
-    margin-bottom: 12px;
-    font-size: 1.4rem;
-    font-weight: 800;
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+    font-weight: 900;
+    letter-spacing: 1px;
 }
 
 .modal-body li {

@@ -27,21 +27,24 @@ const slidesData = [
         details: `
             <h2 class="underlined-title">OUR LEADERS</h2>
             <div class="leaders-grid">
-                <div class="leader">
+                <a href="https://www.ukitc.uk/leadership/kiruba-karan" target="_blank" class="leader" style="text-decoration: none;">
                     <div class="leader-photo" style="background-image: url('kiruba_karan.png')"></div>
                     <strong>KIRUBA KARAN</strong>
                     <p>Managing Director<br>Director of UK Operations</p>
-                </div>
-                <div class="leader">
+                    <span style="color: var(--secondary-color); font-size: 0.9rem; font-weight: bold; margin-top: 10px; display: inline-block;">View Profile →</span>
+                </a>
+                <a href="https://www.ukitc.uk/leadership/jananarayanavighneshwaran" target="_blank" class="leader" style="text-decoration: none;">
                     <div class="leader-photo" style="background-image: url('jana_vigneshwaran.png')"></div>
                     <strong>JANA NARAYANA VIGNESHWARAN</strong>
                     <p>Director of India Operations</p>
-                </div>
-                <div class="leader">
+                    <span style="color: var(--secondary-color); font-size: 0.9rem; font-weight: bold; margin-top: 10px; display: inline-block;">View Profile →</span>
+                </a>
+                <a href="https://www.ukitc.uk/leadership/bhoopathy-ramasamy" target="_blank" class="leader" style="text-decoration: none;">
                     <div class="leader-photo" style="background-image: url('bhoopathy_ramasamy.png')"></div>
                     <strong>BHOOPATHY RAMASAMY</strong>
                     <p>Director of Business Development</p>
-                </div>
+                    <span style="color: var(--secondary-color); font-size: 0.9rem; font-weight: bold; margin-top: 10px; display: inline-block;">View Profile →</span>
+                </a>
             </div>
         `
     },
