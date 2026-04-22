@@ -443,18 +443,20 @@ body {
 
 .modal-body .details-container {
     color: #eee;
-    font-size: 1.4rem;
-    line-height: 1.8;
+    font-size: 1.5rem;
+    line-height: 2;
 }
 
 .modal-body p {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     margin-bottom: 25px;
+    line-height: 1.9;
 }
 
 .modal-body li {
-    font-size: 1.35rem;
+    font-size: 1.45rem;
     margin-bottom: 18px;
+    line-height: 1.6;
 }
 
 /* Grids for details */
@@ -509,9 +511,11 @@ body {
 }
 
 .panel h4 {
-    font-size: 1.5rem;
+    font-family: 'Syne', sans-serif;
+    font-size: 2rem;
     color: var(--text-light);
     margin-bottom: 25px;
+    font-weight: 800;
 }
 
 .panel .circle-img {
@@ -535,8 +539,10 @@ body {
 }
 
 .panel p {
-    font-size: 1.1rem;
+    font-size: 1.6rem;
     color: #eee;
+    line-height: 1.9;
+    font-weight: 400;
 }
 
 .leader p {
