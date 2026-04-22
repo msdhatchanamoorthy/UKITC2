@@ -591,6 +591,7 @@ const slidesData = [
                                 <p style="margin: 0 0 5px 0; color: var(--secondary-color); font-size: 0.95rem; font-weight: bold; text-transform: uppercase;">UK Headquarters</p>
                                 <p style="margin: 0 0 5px 0; color: #aaa; font-size: 0.85rem;">Reg No: 16812048</p>
                                 <p style="margin: 0; font-weight: bold; color: #fff; font-size: 1.1rem; line-height: 1.5;">20 Cypress Gardens,<br>Maidenhead, England, SL6 2FL</p>
+                                <p style="margin: 5px 0 0 0; font-weight: bold; color: #fff; font-size: 1.1rem;"><a href="tel:+447772440105" style="color: #fff; text-decoration: none;">📞 +44 7772 440105</a></p>
                             </div>
                         </div>
                         
@@ -600,7 +601,7 @@ const slidesData = [
                             <div>
                                 <p style="margin: 0 0 5px 0; color: var(--secondary-color); font-size: 0.95rem; font-weight: bold; text-transform: uppercase;">Indian Directors' Office</p>
                                 <p style="margin: 0; font-weight: bold; color: #fff; font-size: 1.1rem; line-height: 1.5;">Plot No.2C, Ground Floor, Garden Woodroffe Nagar,<br>5th Main Road, Old Pallavaram, Chennai - 600117</p>
-                                <p style="margin: 5px 0 0 0; font-weight: bold; color: #fff; font-size: 1.1rem;"><a href="tel:+919944344499" style="color: #fff; text-decoration: none;">📞 +91 9944 3444 99</a></p>
+                                <p style="margin: 5px 0 0 0; font-weight: bold; color: #fff; font-size: 1.1rem;"><a href="tel:+917358255649" style="color: #fff; text-decoration: none;">📞 +91 73582 55649</a></p>
                             </div>
                         </div>
                         
