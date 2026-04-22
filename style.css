@@ -304,14 +304,14 @@ body {
 }
 
 .card-content {
-    padding: 20px;
+    padding: 20px 25px 40px; /* Increased bottom padding */
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     flex: 1;
     z-index: 1;
-    background: linear-gradient(to top, rgba(11, 14, 20, 0.9) 0%, transparent 100%);
+    background: linear-gradient(to top, rgba(11, 14, 20, 0.95) 0%, transparent 100%);
 }
 
 .card h3 {
@@ -332,10 +332,15 @@ body {
 }
 
 .card p {
-    font-size: 1.3rem;
-    color: #ccc;
+    font-size: 1.1rem;
+    color: var(--secondary-color);
     margin-top: auto;
-    font-weight: 500;
+    font-weight: 600;
+    opacity: 0.8;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid rgba(212, 175, 55, 0.2);
 }
 
 /* Modal / Detailed View */
