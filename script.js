@@ -28,14 +28,17 @@ const slidesData = [
             <h2 class="underlined-title">OUR LEADERS</h2>
             <div class="leaders-grid">
                 <div class="leader">
+                    <div class="leader-photo" style="background-image: url('kiruba_karan.png')"></div>
                     <strong>KIRUBA KARAN</strong>
                     <p>Managing Director<br>Director of UK Operations</p>
                 </div>
                 <div class="leader">
+                    <div class="leader-photo" style="background-image: url('jana_vigneshwaran.png')"></div>
                     <strong>JANA NARAYANA VIGNESHWARAN</strong>
                     <p>Director of India Operations</p>
                 </div>
                 <div class="leader">
+                    <div class="leader-photo" style="background-image: url('bhoopathy_ramasamy.png')"></div>
                     <strong>BHOOPATHY RAMASAMY</strong>
                     <p>Director of Business Development</p>
                 </div>
@@ -569,7 +572,6 @@ const slidesData = [
                 <div style="margin-top: 30px; padding: 20px; background: rgba(188, 152, 92, 0.1); border-left: 4px solid var(--secondary-color); border-radius: 0 8px 8px 0;">
                     <h4 style="color: var(--secondary-color); margin-bottom: 10px;">Business Impact</h4>
                     <p style="margin: 0;">Expands global reach for Indian brands and strengthens India's presence in international markets.</p>
-                </div>
             </div>
         `
     },
@@ -588,26 +590,30 @@ const slidesData = [
                     <h3 style="color: #fff; margin-bottom: 25px; font-size: 1.4rem; text-align: center; letter-spacing: 1px;">UK INDIA TRADE CONNECT LIMITED</h3>
                     
                     <div style="display: flex; flex-direction: column; gap: 20px;">
+                        <!-- UK Section -->
                         <div style="display: flex; align-items: flex-start; gap: 20px; padding-bottom: 15px; border-bottom: 1px solid rgba(255,255,255,0.05);">
-                            <span style="font-size: 1.8rem; line-height: 1;">🏢</span>
+                            <span style="font-size: 1.8rem; line-height: 1;">🇬🇧</span>
                             <div>
-                                <p style="margin: 0 0 5px 0; color: #aaa; font-size: 0.95rem;">Company Registration</p>
-                                <p style="margin: 0; font-weight: bold; color: #fff; font-size: 1.1rem; letter-spacing: 1px;">No: 16812048</p>
+                                <p style="margin: 0 0 5px 0; color: var(--secondary-color); font-size: 0.95rem; font-weight: bold; text-transform: uppercase;">UK Headquarters</p>
+                                <p style="margin: 0 0 5px 0; color: #aaa; font-size: 0.85rem;">Reg No: 16812048</p>
+                                <p style="margin: 0; font-weight: bold; color: #fff; font-size: 1.1rem; line-height: 1.5;">20 Cypress Gardens,<br>Maidenhead, England, SL6 2FL</p>
                             </div>
                         </div>
                         
+                        <!-- India Section -->
                         <div style="display: flex; align-items: flex-start; gap: 20px; padding-bottom: 15px; border-bottom: 1px solid rgba(255,255,255,0.05);">
-                            <span style="font-size: 1.8rem; line-height: 1;">📍</span>
+                            <span style="font-size: 1.8rem; line-height: 1;">🇮🇳</span>
                             <div>
-                                <p style="margin: 0 0 5px 0; color: #aaa; font-size: 0.95rem;">Registered Office</p>
-                                <p style="margin: 0; font-weight: bold; color: #fff; font-size: 1.1rem; line-height: 1.5;">20 Cypress Gardens,<br>Maidenhead, England, SL6 2FL</p>
+                                <p style="margin: 0 0 5px 0; color: var(--secondary-color); font-size: 0.95rem; font-weight: bold; text-transform: uppercase;">Indian Directors' Office</p>
+                                <p style="margin: 0; font-weight: bold; color: #fff; font-size: 1.1rem; line-height: 1.5;">Plot No.2C, Ground Floor, Garden Woodroffe Nagar,<br>5th Main Road, Old Pallavaram, Chennai - 600117</p>
+                                <p style="margin: 5px 0 0 0; font-weight: bold; color: #fff; font-size: 1.1rem;"><a href="tel:+919944344499" style="color: #fff; text-decoration: none;">📞 +91 9944 3444 99</a></p>
                             </div>
                         </div>
                         
                         <div style="display: flex; align-items: flex-start; gap: 20px;">
                             <span style="font-size: 1.8rem; line-height: 1;">✉️</span>
                             <div>
-                                <p style="margin: 0 0 5px 0; color: #aaa; font-size: 0.95rem;">Email Address</p>
+                                <p style="margin: 0 0 5px 0; color: #aaa; font-size: 0.95rem;">General Inquiries</p>
                                 <p style="margin: 0; font-weight: bold; font-size: 1.1rem;"><a href="mailto:info@ukitc.uk" style="color: var(--secondary-color); text-decoration: none;">info@ukitc.uk</a></p>
                             </div>
                         </div>
@@ -616,51 +622,6 @@ const slidesData = [
                 
                 <div style="margin-top: 40px;">
                     <a href="https://www.ukitc.uk/" target="_blank" style="display: inline-block; padding: 12px 30px; background: var(--secondary-color); color: #000; text-decoration: none; font-weight: bold; border-radius: 5px; text-transform: uppercase; letter-spacing: 1px; transition: transform 0.3s ease;">Visit Website</a>
-                </div>
-            </div>
-        `
-    },
-    {
-        title: "India Director",
-        icon: "👨‍💼",
-        image: "images/slide_23.jpg",
-        details: `
-            <div class="about-section" style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px 20px;">
-                
-                <h2 class="underlined-title" style="margin-bottom: 20px;">Director's Office</h2>
-                
-                <div style="background-image: url('bhoopathy_ramasamy.png'); background-size: cover; background-position: center top; border: 3px solid var(--secondary-color); border-radius: 50%; width: 150px; height: 150px; margin-bottom: 20px; box-shadow: 0 4px 20px rgba(188, 152, 92, 0.4);">
-                </div>
-                
-                <h3 style="color: #fff; font-size: 1.8rem; margin-bottom: 5px; font-weight: 800; letter-spacing: 1px;">BHOOPATHY RAMASAMY</h3>
-                <p style="color: #aaa; font-size: 1rem; margin-bottom: 10px;">M.Tech., M.B.A.,</p>
-                <p style="color: var(--secondary-color); font-size: 1.2rem; margin-bottom: 30px; font-weight: bold; letter-spacing: 1px; text-transform: uppercase;">Director of Business Development</p>
-                
-                <div style="background: rgba(0, 0, 0, 0.3); padding: 30px; border-radius: 12px; border: 1px solid var(--glass-border); max-width: 600px; width: 100%; text-align: left; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
-                    <div style="display: flex; flex-direction: column; gap: 20px;">
-                        
-                        <div style="display: flex; align-items: flex-start; gap: 20px; padding-bottom: 15px; border-bottom: 1px solid rgba(255,255,255,0.05);">
-                            <span style="font-size: 1.8rem; line-height: 1;">📞</span>
-                            <div>
-                                <p style="margin: 0 0 5px 0; color: #aaa; font-size: 0.95rem;">Contact Information</p>
-                                <p style="margin: 0 0 5px 0; font-weight: bold; color: #fff; font-size: 1.1rem;"><a href="mailto:info@ukitc.uk" style="color: #fff; text-decoration: none;">info@ukitc.uk</a></p>
-                                <p style="margin: 0; font-weight: bold; color: #fff; font-size: 1.1rem;"><a href="tel:+919944344499" style="color: #fff; text-decoration: none;">+91 9944 3444 99</a></p>
-                            </div>
-                        </div>
-                        
-                        <div style="display: flex; align-items: flex-start; gap: 20px;">
-                            <span style="font-size: 1.8rem; line-height: 1;">📍</span>
-                            <div>
-                                <p style="margin: 0 0 5px 0; color: #aaa; font-size: 0.95rem;">Indian Directors' Office</p>
-                                <p style="margin: 0; font-weight: bold; color: #fff; font-size: 1.1rem; line-height: 1.5;">Plot No.2C, Ground Floor, Garden Woodroffe Nagar, 5th Main Road,<br>Old Pallavaram, Chennai - 600117</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div style="margin-top: 30px; opacity: 0.8;">
-                    <p style="color: var(--secondary-color); font-weight: bold; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 5px;">UKITC</p>
-                    <p style="color: #fff; font-size: 0.9rem;">Bridging Britain & Bharat</p>
                 </div>
             </div>
         `
