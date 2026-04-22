@@ -2,7 +2,7 @@ const slidesData = [
     {
         title: "About Us",
         icon: "🏢",
-        image: "images/slide_0.jpg", // City skyline image
+        image: "images/slide_0.png", // City skyline image
         details: `
             <div class="about-section">
                 <h2 class="underlined-title">ABOUT US</h2>
@@ -23,7 +23,7 @@ const slidesData = [
     {
         title: "Our Leaders",
         icon: "🤝",
-        image: "images/slide_1.jpg",
+        image: "images/slide_1.png",
         details: `
             <h2 class="underlined-title">OUR LEADERS</h2>
             <div class="leaders-grid">
@@ -42,7 +42,7 @@ const slidesData = [
     {
         title: "Why Choose UKITC?",
         icon: "🏆",
-        image: "images/slide_2.jpg",
+        image: "images/slide_2.png",
         details: `
             <h2 class="underlined-title">WHY CHOOSE UKITC?</h2>
             <div class="features-grid">
@@ -79,7 +79,7 @@ const slidesData = [
     {
         title: "Why Partner With UKITC?",
         icon: "🤝",
-        image: "images/slide_3.jpg",
+        image: "images/slide_3.png",
         details: `
             <h2 class="underlined-title">WHY PARTNER WITH UKITC?</h2>
             <div class="circle-grid">
@@ -109,12 +109,12 @@ const slidesData = [
     {
         title: "Our Vision & Mission",
         icon: "👁️",
-        image: "images/vision_compass.jpg",
+        image: "images/vision_new.jpg",
         details: `
             <div class="split-panel">
                 <div class="panel">
                     <h2 class="underlined-title" style="font-size: 1.8rem; margin-bottom: 30px;">Our Vision</h2>
-                    <div class="circle-img" style="background-image: url('images/vision_compass.jpg');"></div>
+                    <div class="circle-img" style="background-image: url('images/vision_new.jpg');"></div>
                     <p>To become a leading UK–India trade facilitation platform recognised for integrity, execution excellence, and meaningful economic impact across both nations.</p>
                 </div>
                 <div class="panel">
@@ -128,7 +128,7 @@ const slidesData = [
     {
         title: "Who We Are",
         icon: "👥",
-        image: "images/slide_5.jpg",
+        image: "images/slide_5.png",
         details: `
             <div class="who-we-are-layout">
                 <div class="main-image" style="background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
@@ -153,7 +153,7 @@ const slidesData = [
     {
         title: "We Work With",
         icon: "👥",
-        image: "images/slide_6.jpg",
+        image: "images/slide_6.png",
         details: `
             <div class="work-grid">
                 <div class="work-item">
@@ -178,7 +178,7 @@ const slidesData = [
     {
         title: "UK Market Entry",
         icon: "🇬🇧",
-        image: "images/slide_7.jpg",
+        image: "images/slide_7.png",
         details: `
             <h2 class="underlined-title">UK MARKET ENTRY</h2>
             <p>Comprehensive strategic guidance for Indian companies looking to establish a presence in the UK. We handle local regulations, market analysis, business setup, and initial market penetration strategies to ensure a smooth transition into the British economy.</p>
@@ -187,7 +187,7 @@ const slidesData = [
     {
         title: "Market Entry & Expansion",
         icon: "📈",
-        image: "images/slide_8.jpg",
+        image: "images/slide_8.png",
         details: `
             <div class="about-section">
                 <h2 class="underlined-title">Facilitating UK–India Market Entry & Expansion</h2>
@@ -203,7 +203,7 @@ const slidesData = [
     {
         title: "Empowering MSMEs",
         icon: "🚀",
-        image: "images/slide_9.jpg",
+        image: "images/slide_9.png",
         details: `
             <div class="about-section">
                 <h2 class="underlined-title">Empowering MSMEs for Export Readiness</h2>
@@ -219,7 +219,7 @@ const slidesData = [
     {
         title: "Trade Compliance",
         icon: "⚖️",
-        image: "images/slide_10.jpg",
+        image: "images/slide_10.png",
         details: `
             <div class="about-section">
                 <h2 class="underlined-title">Navigating Trade Compliance</h2>
@@ -235,13 +235,13 @@ const slidesData = [
     {
         title: "Educational Support",
         icon: "🎓",
-        image: "images/slide_11.jpg",
+        image: "images/slide_11.png",
         details: "Trade awareness and business education programs. Mentoring services for entrepreneurs looking to understand the nuances of international trade."
     },
     {
         title: "Wholesale Trade (SIC 46900)",
         icon: "📦",
-        image: "images/slide_12.jpg",
+        image: "images/slide_12.png",
         details: `
             <div class="about-section">
                 <h2 class="underlined-title">Our Services Portfolio</h2>
@@ -263,7 +263,7 @@ const slidesData = [
     {
         title: "Food Wholesale (SIC 46390)",
         icon: "🍏",
-        image: "images/slide_13.jpg",
+        image: "images/slide_13.png",
         details: `
             <div class="about-section">
                 <h2 class="underlined-title">Our Services Portfolio</h2>
@@ -281,7 +281,7 @@ const slidesData = [
     {
         title: "Web Portals (SIC 63120)",
         icon: "🌐",
-        image: "images/slide_14.jpg",
+        image: "images/slide_14.png",
         details: `
             <div class="about-section">
                 <h2 class="underlined-title">Our Services Portfolio</h2>
@@ -317,7 +317,7 @@ const slidesData = [
     {
         title: "Investment & Trade Promotion",
         icon: "🤝",
-        image: "images/slide_16.jpg",
+        image: "images/slide_16.png",
         details: `
             <div class="about-section">
                 <h2 class="underlined-title">Our Services Portfolio</h2>
