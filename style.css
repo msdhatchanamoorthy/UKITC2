@@ -242,16 +242,28 @@ body {
     to { transform: translateY(-15px); }
 }
 
-.card:nth-child(even) {
-    border-radius: 40% 60% 70% 30% / 40% 40% 60% 60%;
-    margin-top: 50px;
-    animation-delay: 0.2s, 1s !important;
+.card:nth-child(4n+1) {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    transform: translateX(-30px);
+    margin-top: 20px;
 }
 
-.card:nth-child(3n) {
+.card:nth-child(4n+2) {
+    border-radius: 40% 60% 70% 30% / 40% 40% 60% 60%;
+    transform: translateX(40px);
+    margin-top: 80px;
+}
+
+.card:nth-child(4n+3) {
     border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
-    margin-top: -30px;
-    animation-delay: 0.4s, 2s !important;
+    transform: translateY(-40px);
+    margin-top: 10px;
+}
+
+.card:nth-child(4n+4) {
+    border-radius: 50% 50% 20% 80% / 80% 20% 50% 50%;
+    transform: translateX(-20px);
+    margin-top: 60px;
 }
 
 .card:hover {
@@ -288,12 +300,13 @@ body {
 
 .card h3 {
     font-family: 'Syne', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: var(--secondary-color);
     margin-bottom: 15px;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 800;
+    line-height: 1.2;
 }
 
 .card .icon {
@@ -303,9 +316,10 @@ body {
 }
 
 .card p {
-    font-size: 0.8rem;
-    color: var(--text-muted);
+    font-size: 1.3rem;
+    color: #ccc;
     margin-top: auto;
+    font-weight: 500;
 }
 
 /* Modal / Detailed View */
